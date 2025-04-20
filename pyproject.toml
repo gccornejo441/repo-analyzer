@@ -1,0 +1,18 @@
+[project]
+name = "repo-analyzer"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Gabriel Cornejo",email = "gcornejo441@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+repo-analyzer = "repo_analyzer.cli:main"  
