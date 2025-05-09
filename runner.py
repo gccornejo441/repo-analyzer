@@ -160,4 +160,4 @@ if __name__ == '__main__':
     embedding, documents = generate_embeddings(chunked_docs)
     vectorstore = save_to_vector_store(documents, HuggingFaceEmbeddings(
         model_name="sentence-transformers/all-MiniLM-L6-v2"))
-    search_codebase(vectorstore, "How is authentication handled?")
+    search_codebase(vectorstore, "What does the script do in the main block?")
