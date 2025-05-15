@@ -1,0 +1,49 @@
+# ----- Python -----
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Poetry (lock file should be committed for reproducible builds)
+# .venv created by Poetry or virtualenv
+.venv/
+venv/
+
+# Pytest cache and coverage reports
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# MyPy cache
+.mypy_cache/
+
+# ----- Environment & secrets -----
+# dotenv environment variables
+.env
+.env.*
+
+# ----- JavaScript -----
+# If you end up installing any Node.js deps
+node_modules/
+
+# ----- IDEs and editors -----
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ----- OS files -----
+.DS_Store
+Thumbs.db
+server/jpmGetTranscription.js
+server/repo_index/index.faiss
+server/repo_index/index.pkl
